@@ -1,0 +1,106 @@
+Đây là dự án cho trang web blog cá nhân. Xây dựng một sản phẩm hoàn chỉnh, một phần vì chiếc CV đẹp.
+
+Ý tưởng: website cá nhân
+
+------------------------------------
+Nội dung:
+1. Profile/PR về bản thân
+2. Blog cá nhân: về cảm nhận gì đó xung quanh cuộc sống, về nhật kí (limited người đọc), về ước mơ...
+-> lấy ý tưởng/câu chuyện/hình ảnh từ Locket
+3. Gửi thư cho tôi, gửi thư cho bạn...
+4. Những người/ những điều bản thân ngưỡng mộ
+
+------------------------------------
+Nguồn hình ảnh:
+1. Locket
+2. Tự chụp (có thể sẽ đầu tư một chiếc máy ảnh kỹ thuật số)
+
+Nguồn nội dung:
+1. Nhật ký
+2. Tự viêt
+
+------------------------------------
+
+Bố cục trang web
+
+1. Navigation: Home (intro page) - About Me - Blogs - Contact - Language (language changing button) - Theme mode (light/dark)
+|
+|
+2. Home page: Introduce yourself, who you are, quote...
+-------Contents:
+		I. Introduction: Name, basic information (nation, MBIT type, Hobbies...), your purposes/introduce yourself 
+		II. Inspirations: quote
+----------------
+|
+|
+3. About Me:
+-------Contents:
+		I. Educations:
+			+ Akamonkai Japanese Language School: 2023/11 - 2025/3
+			+ Waseda Bunri College of Arts and Sciences: 2025/4 - now
+		II. Experiences:
+			+ Extracurricular activities:
+						Vietnam and friends project (HR member/Head HR) 2022-2023
+						Bionimation project (HR member) 2022
+						Steam for Vietnam Mentorship Program 2022: Introduction To Computer Science With Python
+						Waseda Bunri College of Arts and Sciences Open Campus volunteer 2025
+						Kita Fireworks festival volunteer 2025
+
+			+ Competitions: Math Modeling Online Contest - 2022 (team top 19)
+
+			+ Internships: USS 2027 Graduation Internship: Fundamentals of System Planning and Development and System Planning Experience
+						
+		III. Skills:
+			+ Technical skills:
+					・ Programming: Python, HTML/CSS/JS, React
+					・ Design: Figma
+			+ Languages: English - A2, Japanese - N3
+			+ Soft skills: Communications, Goal setting, Problems solving, Learning Agility
+		IV. Certifications/Qualifications:
+			+ Japanese: JLPT N3 (aiming JLPT N2 this December)
+			+ English: (aiming TOEIC 600+ next 2026 year, aiming B2)
+			+ Programming: P プロ検 Python level 5
+			+ IT's knowledges: (aiming IT passport, AI passport examination)
+
+		V. Portfolio(did not professional projects at all but have somethings funny to show off): attach project's GitHub link
+						+ To-do-list (Python/Tkinter) - 2022
+						+ Sudoku web app (React/Python) - 2025
+						+ Saitama introduction website (React/in process) - 2025
+						+ #J4F: Find way home (Python/Pygame), The Gift (Python) - 2022
+----------------
+|
+|
+4. Blogs
+-------Contents: divide the contents into hashtags title or Series: Foods tour, Favorite tourist spots, Hobbies, Daily, A year overview...
+|
+|
+5. Contact:
+	+ Email: design it as a post-office, for user sending letters/messages
+	+ LinkedIn
+	+ GitHub
+	+ Facebook
+	+ Instagram
+|
+|
+6. Fooster:
+	+ Logo - Your name
+	+ Menu/Navigation
+	+ Social icons
+	+ Newsletter, Recent posts
+	+ Copyright: © 2025 Your Name. All rights reserved
+
+
+
+(6) Gallery: 
+
+
+Steamlit -> upload -> create QR
+Datebase: SQLite, MySQL
+
+App Script URL:
+https://script.google.com/macros/s/AKfycbwFP1ZQfznCZYDlMwYTO81AQegLNrgWtcWX0xMGkrFCrCxD9LFwBpj1S5aRlWENIF_Yvw/exec
+
+
+
+
+ 

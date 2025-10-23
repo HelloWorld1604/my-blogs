@@ -1,0 +1,83 @@
+#home {
+    width: 100%; /* view-width */
+    height: 100vh; /* view-height */
+
+    background-image: url('/background/Home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Title {
+    font-size: 6rem;
+    font-family: "Michroma";
+    font-weight: 800;
+    color: #404040;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#about_me_button, #blogs_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 7vh;
+
+    font-size: 15px;
+    font-family: "Michroma";
+    text-decoration: none;
+
+    margin: 2vw;
+    border: 0;
+    border-radius: 10px;
+}
+
+#about_me_button {
+    background-color: #FFFFFF;
+    color: #404040;
+}
+
+#blogs_button {
+    background-color: #404040;
+    color: #FFFFFF;
+}
+
+#about_me_button:hover {
+    background-color: #404040;
+    color: #FFFFFF;
+}
+
+#blogs_button:hover {
+    background-color: #FFFFFF;
+    color: #404040;
+}
+
+
+/* Mobile edition -------------------- */
+@media only screen and (width <= 700px) {
+
+    #Title {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    #about_me_button, #blogs_button {
+    width: 24vw;
+    height: 6vh;
+
+    font-size: 10px;
+    }
+
+}

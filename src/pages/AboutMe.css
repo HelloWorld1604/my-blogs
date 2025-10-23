@@ -1,0 +1,409 @@
+#about-me {
+    width: 100%;
+    height: 100vh;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    width: 100%;
+    height: 95%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-slide, .right-slide {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-slide, .bottom-slide {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Slide 1 ------------------------------------------------------------------------- */
+/* About me Slide 1 - left screen */
+
+.slide-title {
+    margin: 10px;
+
+    font-family: "Michroma";
+    font-weight: 100;
+    color: #404040;
+}
+
+#LHT {
+    width: 60%;
+    height: 50%;
+    margin: 10px;
+
+    background-image: url('/components/ME!.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide-content-container {
+    margin: 10px;
+    
+    font-family: "Inter";
+    color: #404040;
+    text-align: center;
+}
+
+.slide-subtitle {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.slide-headline {
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    color: #45A5FF;
+}
+
+.slide-content {
+    font-size: 12px;
+}
+
+/* About me Slide 1 - right screen */
+
+.black-block, .blue-block {
+    width: 35%;
+    height: 85%;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Inter";
+    color: #FFFFFF;
+}
+
+.black-block {
+    background-color: #404040;
+}
+
+.blue-block {
+    background-color: #45A5FF;
+}
+
+.block-title {
+    margin-top: 10px;
+}
+
+.block-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.block-name {
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.block-content {
+    width: 80%;
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    margin: 5px;
+    margin-top: 0;
+    text-align: left;
+}
+
+/* Slide 1 ending ------------------------------------------------------------------------- */
+
+
+
+/* Slide 2 ------------------------------------------------------------------------- */
+
+.slide2-title {
+    height: 35px;
+    background-color: #404040;
+    
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+    font-family: "Michroma";
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#tech-skill {
+    width: 210px;
+}
+
+#soft-skill {
+    width: 150px;
+}
+
+.radar-chart-container {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: self-end;
+
+    gap: 5%;
+}
+
+.radar-chart {
+    width: 230px;
+    height: 230px;
+}
+
+
+.bar-chart-container {
+    width: 500px;
+    height: 250px;
+}
+
+.bio-frame-container {
+    width: 80%;
+    height: 90%;
+
+    background-color: #404040;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-frame {
+    width: 90%;
+    height: 90%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.bio-frame::-webkit-scrollbar {
+    width: 5px;
+}
+
+.bio-frame::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.bio-frame::-webkit-scrollbar-thumb:hover {
+    background: #dcdcdc;
+}
+
+.bio-block {
+    width: 100%;
+    height: 50%;
+
+    color:#FFFFFF;
+}
+
+#bio-timeline {
+    list-style-type: none;
+}
+
+.timeline-catalog {
+    padding-bottom: 5vh;
+}
+
+.timeline-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.timeline-title {
+    font-family: "Michroma";
+    font-size: 25px;
+}
+
+.timeline-sub-content-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 3vh;
+}
+
+.timeline-sub-content {
+    padding-left: 15px;
+    font-family: "Michroma";
+    font-size: 15px;
+}
+
+.circle-regular-icon {
+    float: left;
+    font-size: 40px;
+}
+
+.content-box {
+    width: 100%;
+    height: 30%;
+
+    padding-left: 3vw;
+    padding-top: 5vh;
+}
+
+.timeline-year {
+    padding-bottom: 10px;
+    font-family: "Michroma";
+    font-size: 10px;
+}
+
+.timeline-information {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+
+    border-left: 3px solid #FFFFFF ;
+    padding-left: 10px;
+    font-family: "Inter";
+    font-size: 15px;
+}
+
+.list-infs-container {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+.list-infs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.list-infs:hover {
+    color: #45A5FF;
+}
+
+/* Slide 2 ending ------------------------------------------------------------------------- */
+
+
+.slide .swiper-pagination-bullet {
+    background-color: #404040;
+    width: 0.8vw;
+    height: 0.8vw;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: #45A5FF;
+}
+
+
+
+
+/* Tablet and Mobile edition -------------------- */
+
+/* Tablet */
+@media only screen and (width <= 1100px) and (width >= 900px) {
+    /* Slide 1 ---------------------------------------*/
+    .black-block, .blue-block {
+        width: 45%;
+        height: 85%;
+        border-radius: 20px;
+    }
+    
+}
+
+/* Moblie */
+@media only screen and (width < 900px) {
+    #about-me {
+        height: 200vh;
+    }
+
+    /* Slide 1 ---------------------------------------*/
+
+    #LHT {
+        width: 70%;
+        height: 50%;
+    }
+
+    .slides {
+        height: 97.5%;
+        flex-direction: column;
+    }
+
+    .top-slide, .bottom-slide {
+        align-items: self-start;
+    }
+
+    .left-slide, .right-slide {
+        width: 100%;
+        height: 50%;
+    }
+
+    .black-block, .blue-block {
+        width: 40%;
+        height: 85%;
+        border-radius: 20px;
+    }
+
+    .slide .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Slide 2 ---------------------------------------*/
+    .slide2-title {
+        height: 40px;
+        border-radius: 15px;
+
+        left: 10px;
+        top: 20px;
+        
+        font-size: 15px;
+    }
+
+    #tech-skill {
+        width: 180px;
+    }
+
+    #soft-skill {
+        width: 140px;
+    }
+
+    .radar-chart-container {
+        gap: 0;
+    }
+
+    .bio-frame-container {
+        width: 90%;
+        height: 80%;
+
+        background-color: #404040;
+        border-radius: 20px;
+    }
+
+    .bio-title {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,101 @@
+#fooster {
+    width: 100%;
+    height: 50vh;
+    background-color: #404040;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#fooster-logo {
+    width: 20%;
+    height: 20%;
+    background-image: url(./BeoBeo_typo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-bottom: 20px;
+}
+
+.fooster-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fooster-links {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Inter";
+
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fooster-social-medias {
+    width: 30px;
+    height: 30px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#copyright {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: "Inter";
+}
+
+#left-cloud {
+    height: 45vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    object-fit: cover;
+}
+
+#right-cloud {
+    height: 45vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    object-fit: cover;
+}
+
+
+/* Mobile edition -------------------- */
+@media only screen and (width <= 800px) {
+
+    #fooster-logo {
+        margin-bottom: 0;
+    }
+
+    .fooster-link-container {
+        flex-direction: row;
+    }
+
+    .fooster-links {
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #left-cloud, #right-cloud {
+        width: 36vw;
+        height: 31vh;
+    }
+}
