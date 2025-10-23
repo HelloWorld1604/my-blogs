@@ -1,6 +1,11 @@
 #logo {
     width: 7vw;
     height: 4vh;
+
+    background-image: url("/BeoBeo_typo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #nav-bar {

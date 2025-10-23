@@ -44,9 +44,6 @@ function Contact() {
             <div className="contact-Right">
                 <form id="contact-form" onSubmit={e=>handleSumit(e)} acceptCharset="UTF-8">
                     <div id="form-headline">
-                        <div>
-                            <img id="stamp" src="/icons/Stamp.png" />
-                        </div> 
                         
                         <div className="entries">
                             <div id="email-entry">

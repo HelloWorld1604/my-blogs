@@ -14,7 +14,7 @@
 #fooster-logo {
     width: 20%;
     height: 20%;
-    background-image: url(./BeoBeo_typo.png);
+    background-image: url("/BeoBeo_typo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
