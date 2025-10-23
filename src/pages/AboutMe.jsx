@@ -410,7 +410,7 @@ function AboutMe() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="slides" style={{backgroundColor:"lightblue"}}>
+                    <div className="slides" style={{backgroundColor:"pink"}}>
                         Slide 3
                     </div>
                 </SwiperSlide>
