@@ -227,9 +227,9 @@ function AboutMe() {
                 pagination={{clickable:true}}>
 
                 <SwiperSlide>
-                    <div className="slides" id="bio">
+                    <div className="slides">
                         
-                        <div className="left-slide">
+                        <div className="left-slide" id="bio-intro">
                             <h1 className="slide-title">Biography</h1>
                             <div id="LHT" />
                             <div className="slide-content-container">
@@ -243,8 +243,8 @@ function AboutMe() {
                             </div>
                         </div>
 
-                        <div className="right-slide">
-                            <div className="top-slide" style={{alignItems:"self-end"}}>
+                        <div className="right-slide" id="fun-facts">
+                            <div className="top-slide">
 
                                 <div className="black-block">
                                     <p className="block-title">MBTI type</p>
@@ -266,7 +266,7 @@ function AboutMe() {
 
                             </div>
 
-                            <div className="bottom-slide" style={{alignItems:"self-start"}}>
+                            <div className="bottom-slide">
 
                                 <div className="blue-block">
                                     <p className="block-title">Hobby</p>
