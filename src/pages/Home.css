@@ -20,6 +20,12 @@
     color: #404040;
 }
 
+#Title-sub-text {
+    font-family: "Inter";
+    color: #404040;
+    font-size: 20px;
+}
+
 .home-buttons {
     display: flex;
     flex-direction: row;
@@ -74,10 +80,47 @@
     }
 
     #about_me_button, #blogs_button {
-    width: 24vw;
-    height: 6vh;
+        width: 24vw;
+        height: 6vh;
 
-    font-size: 10px;
+        font-size: 10px;
+    }
+
+}
+
+/* Smartphone edition -------------------- */
+@media only screen and (width <= 500px) {
+
+    #home {
+        width: 100%; /* view-width */
+        height: 100vh; /* view-height */
+
+        background-image: url('/background/Home.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Title {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #Title-sub-text {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    #about_me_button, #blogs_button {
+        width: 24vw;
+        height: 6vh;
+
+        font-size: 10px;
     }
 
 }
