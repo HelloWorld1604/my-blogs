@@ -378,31 +378,30 @@ function AboutMe() {
                                                     </div>
                                                 </div>                           
                                             </li>
-                                        </ul>
-                                        
+                                        </ul>   
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="right-slide">
-                            <div className="top-slide" style={{position:"relative"}}>
+                            <div className="top-slide" id="technical-cata" style={{position:"relative"}}>
                                 <p className="slide2-title" id="tech-skill">Technical skills</p>
                                 <div className="radar-chart-container">
                                     <div className="radar-chart">
                                         <Radar data={programmingRadarData} options={programmingRadarOptions} />
                                     </div>
                                     <div className="radar-chart">
-                                        <Radar className="radar-chart" data={languageRadarData} options={languageRadarOptions} /> 
+                                        <Radar data={languageRadarData} options={languageRadarOptions} /> 
                                     </div>
                                     
                                 </div>
                             </div>
 
-                            <div className="bottom-slide" style={{alignItems:"self-end", position:"relative"}}>
+                            <div className="bottom-slide" id="soft-cata" style={{alignItems:"self-end", position:"relative"}}>
                                 <p className="slide2-title" id="soft-skill">Soft skills</p>
                                 <div className="bar-chart-container">
-                                    <Bar data={barData} options={barOptions} />
+                                    <Bar style={{width:"300px", height:"400px"}} data={barData} options={barOptions} />
                                 </div>
                             </div>
                         </div>
