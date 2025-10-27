@@ -236,9 +236,9 @@ function AboutMe() {
                                 <p className="slide-subtitle">My name is</p>
                                 <h2 className="slide-headline">LUONG HUYEN TRANG</h2>
                                 <p className="slide-content">
-                                    Why do you create this website? What you want people to remember about you?
-                                    This is paragraph introduce about yourself. What are you looking for?
-                                    Just write down some stupid stuffs here, then we are gonna edit
+                                    I am a student majoring in AI design, and passionate about UX/UI
+                                <br/>aiming to create products that are valuable to users, highly motivated
+                                <br/>to learn and value teamwork with attentive listening and empathy
                                 </p>
                             </div>
                         </div>
@@ -410,8 +410,8 @@ function AboutMe() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="slides" style={{backgroundColor:"pink"}}>
-                        Slide 3
+                    <div className="slides" style={{backgroundColor:"pink", fontFamily: "Michroma"}}>
+                        In process...
                     </div>
                 </SwiperSlide>
             
