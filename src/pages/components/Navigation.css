@@ -53,3 +53,12 @@
         height: 4vh;
     }
 }
+
+/* Smartphone edition -------------------- */
+@media only screen and (width <= 500px) {
+
+    .nav-buttons {
+        font-size: 12px;
+        margin: 5px;
+    }
+}
