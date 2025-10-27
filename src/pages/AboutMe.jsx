@@ -237,8 +237,8 @@ function AboutMe() {
                                 <h2 className="slide-headline">LUONG HUYEN TRANG</h2>
                                 <p className="slide-content">
                                     I am a student majoring in AI design, and passionate about UX/UI
-                                <br/>aiming to create products that are valuable to users, highly motivated
-                                <br/>to learn and value teamwork with attentive listening and empathy
+                                    aiming to create products that are valuable to users, highly motivated
+                                    to learn and value teamwork with attentive listening and empathy
                                 </p>
                             </div>
                         </div>
