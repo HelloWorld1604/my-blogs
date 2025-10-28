@@ -401,7 +401,7 @@ function AboutMe() {
                             <div className="bottom-slide" id="soft-cata" style={{alignItems:"self-end", position:"relative"}}>
                                 <p className="slide2-title" id="soft-skill">Soft skills</p>
                                 <div className="bar-chart-container">
-                                    <Bar style={{width:"300px", height:"400px"}} data={barData} options={barOptions} />
+                                    <Bar data={barData} options={barOptions} />
                                 </div>
                             </div>
                         </div>

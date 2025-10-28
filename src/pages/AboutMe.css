@@ -472,12 +472,20 @@
     }
 
     #technical-cata {
-        height: 55vh;
+        height: 70vh;
+        background-color: #45A5FF;
+    }
+
+    #soft-cata {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .radar-chart-container {
         width: 100%;
-        height: 100vh;
+        height: 65vh;
+        background-color: pink;
         
         flex-direction: column;
         justify-content: flex-end;
@@ -491,6 +499,8 @@
 
     .bar-chart-container {
         width: 100%;
-        align-items: self-end;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 }
