@@ -463,20 +463,24 @@
     }
 
     /* Slide 2 ---------------------------------------*/
-    #tech-skill {
-        width: 210px;
+    #history-timeline {
+        height: 35%;
     }
 
-    #soft-skill {
-        width: 150px;
+    #skills {
+        height: 65%;
     }
 
     #technical-cata {
-        height: 70vh;
-        background-color: #45A5FF;
+        height: 65%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     #soft-cata {
+        height: 35%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -484,8 +488,7 @@
 
     .radar-chart-container {
         width: 100%;
-        height: 65vh;
-        background-color: pink;
+        height: 70vh;
         
         flex-direction: column;
         justify-content: flex-end;

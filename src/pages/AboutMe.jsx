@@ -293,7 +293,7 @@ function AboutMe() {
 
                 <SwiperSlide>
                     <div className="slides">
-                        <div className="left-slide">
+                        <div className="left-slide" id="history-timeline">
                             <div className="bio-frame-container">
                                 <div className="bio-frame">
                                     <div className="bio-block">
@@ -384,7 +384,7 @@ function AboutMe() {
                             </div>
                         </div>
 
-                        <div className="right-slide">
+                        <div className="right-slide" id="skills">
                             <div className="top-slide" id="technical-cata" style={{position:"relative"}}>
                                 <p className="slide2-title" id="tech-skill">Technical skills</p>
                                 <div className="radar-chart-container">
@@ -394,7 +394,6 @@ function AboutMe() {
                                     <div className="radar-chart">
                                         <Radar data={languageRadarData} options={languageRadarOptions} /> 
                                     </div>
-                                    
                                 </div>
                             </div>
 
