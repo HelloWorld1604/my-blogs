@@ -251,7 +251,7 @@ function AboutMe() {
                                     <div style={{height:"70px", display:"flex", alignItems:"center"}}><p style={{fontWeight:"bold", fontSize:"50px"}}>INFJ</p></div>
                                     <p className="block-name">Advocate</p>
                                     <p className="block-content">
-                                        Từng trải nghiệm và luôn đi tìm ý nghĩa từ những gì mình đã trải qua. Và là một người cực kì thích xây dựng kế hoạch. Sushi takoyaki bim bim hoa quả trái cây dinh dưỡng bồi bổ.
+                                        I love reflecting on life and writing my thoughts down. That’s why this blog was born to keep the stories and lessons that have shaped who I am
                                     </p>
                                 </div>
 
@@ -260,7 +260,7 @@ function AboutMe() {
                                     <img className="block-icon" src="./icons/Vietnam.png" />
                                     <p className="block-name">Vietnam</p>
                                     <p className="block-content">
-                                        Tôi sinh ra và lớn lên ở một đất nước yêu hòa bình, nghìn năm lịch sử đầy hào hùng, khí thế. Cũng là một đất nước nhiều danh lam thắng cảnh đẹp, ẩm thực phong phú...
+                                        I was born and raised in a peaceful country with a thousand years of history, rich in spirit, beauty and diverse in its culture, cuisine
                                     </p>
                                 </div>
 
@@ -273,7 +273,7 @@ function AboutMe() {
                                     <img className="block-icon" src="./icons/Film.png" />
                                     <p className="block-name">Watching anime</p>
                                     <p className="block-content">
-                                        Tôi sinh ra và lớn lên ở một đất nước yêu hòa bình, nghìn năm lịch sử đầy hào hùng, khí thế. Cũng là một đất nước nhiều danh lam thắng cảnh đẹp, ẩm thực phong phú...
+                                        Anime is more than a hobby, it’s a bridge to Japanese culture. Each story leaves me with a deep impression and a memory to keep
                                     </p>
                                 </div>
 
@@ -282,7 +282,7 @@ function AboutMe() {
                                     <img className="block-icon" src="./icons/Turle.png" />
                                     <p className="block-name">Turle</p>
                                     <p className="block-content">
-                                        Tôi sinh ra và lớn lên ở một đất nước yêu hòa bình, nghìn năm lịch sử đầy hào hùng, khí thế. Cũng là một đất nước nhiều danh lam thắng cảnh đẹp, ẩm thực phong phú...
+                                        I love turtles for their charm. They live long and gracefully, I believe that throughout their lives, turtles have found their own meaningful journey.
                                     </p>
                                 </div>
 

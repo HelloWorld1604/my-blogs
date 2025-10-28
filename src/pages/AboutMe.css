@@ -138,12 +138,17 @@
 
 .block-content {
     width: 80%;
+    height: 30%;
     margin-bottom: 10px;
 
     font-size: 12px;
     margin: 5px;
     margin-top: 0;
-    text-align: left;
+    text-align: center;
+    
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 
 /* Slide 1 ending ------------------------------------------------------------------------- */
@@ -472,17 +477,17 @@
     }
 
     #technical-cata {
-        height: 65%;
+        height: 60%;
 
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
     }
 
     #soft-cata {
-        height: 35%;
+        height: 40%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
     }
 
@@ -496,7 +501,7 @@
     }
 
     .radar-chart {
-        width: 200px;
+        width: 250px;
         height: 250px;
     }
 
@@ -504,6 +509,15 @@
         width: 100%;
         display: flex;
         justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media only screen and (height <= 800px) {
+    #technical-cata {
+        height: 80%;
+        display: flex;
+        justify-content: flex-end;
         align-items: center;
     }
 }
