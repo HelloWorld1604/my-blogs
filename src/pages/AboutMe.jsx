@@ -385,7 +385,7 @@ function AboutMe() {
                         </div>
 
                         <div className="right-slide" id="skills">
-                            <div className="top-slide" id="technical-cata" style={{position:"relative"}}>
+                            <div className="top-slide" id="technical-cata" style={{alignItems:"self-end", position:"relative"}}>
                                 <p className="slide2-title" id="tech-skill">Technical skills</p>
                                 <div className="radar-chart-container">
                                     <div className="radar-chart">
