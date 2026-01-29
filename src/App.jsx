@@ -1,25 +1,17 @@
-import './App.css'
+import { Routes, Route } from "react-router-dom";
 
-import Navigation from './pages/components/Navigation.jsx';
-import Home from './pages/Home.jsx';
-import Quote from './pages/Quote.jsx';
-import AboutMe from './pages/AboutMe.jsx';
-import Contact from './pages/Contact.jsx';
-import Fooster from './pages/Fooster.jsx';
+import HomeLayout from "./pages/HomeLayout";
+import Blog from "./pages/Blog";
+import BlogDetail from "./pages/BlogDetail";
 
 function App() {
-
   return (
-    <div id="main-line">
-      <Navigation />
-      <Home />
-      <Quote />
-      <AboutMe />
-      <Contact />
-      <Fooster />
-    </div>
-    
-  )
+    <Routes>
+      <Route path="/" element={<HomeLayout />} />
+      <Route path="/bbablogs" element={<Blog />} />
+      <Route path="/bbablogs/:slug" element={<BlogDetail />} />
+    </Routes>
+  );
 }
 
 export default App;
