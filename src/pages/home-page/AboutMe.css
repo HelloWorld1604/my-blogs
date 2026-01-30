@@ -134,15 +134,15 @@
 }
 
 #Vietnam {
-    background-image: url(./icons/Vietnam.png);
+    background-image: url(/icons/Vietnam.png);
 }
 
 #Film {
-    background-image: url(./icons/Film.png);
+    background-image: url(/icons/Film.png);
 }
 
 #Turle {
-    background-image: url(./icons/Turle.png);
+    background-image: url(/icons/Turle.png);
 }
 
 .block-name {

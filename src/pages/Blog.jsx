@@ -20,16 +20,21 @@ function Blog() {
       <div>
         <h1>My Blogs</h1>
 
-        <div style={{ backgroundColor: "lightblue" }}>
-          {posts.map(post => (
-            <article key={post.id}>
-              <h2>{post.title}</h2>
-              <p>{post.content}</p>
-              <small>{post.created_at}</small>
-              <br/>
-              <Link to={`/bbablogs/${post.slug}`}>Read more</Link>
-              <hr />
+        <div>
+          {posts.map(post => (      
+            <article className="article" key={post.id}>
+              <div className="blog-card">
+                <img className="blog-illu"  src={import.meta.env.BASE_URL + post.illustration}/>
+                <div className="preview-wrap">
+                  <h2>{post.title}</h2>
+                  <p>{post.content}</p>
+                  <small>{post.created_at}</small>
+                  <br/>
+                  <Link to={`/bbablogs/${post.slug}`}>Read more</Link>
+                </div>
+              </div>
             </article>
+          
           ))}
         </div>
       </div>
