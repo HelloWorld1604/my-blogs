@@ -9,9 +9,16 @@
   width: 100%;
 }
 
+#blog-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .article {
-  width: 60vw;
-  height: 50vh;
+  width: 65vw;
+  height: 45vh;
   margin: 2vw;
 
   display: flex;
@@ -58,7 +65,6 @@
     width: 70vw;
     height: 50vh;
   }
-
 }
 
 /* Smartphone */

@@ -17,7 +17,7 @@ function Blog() {
   return (
     <div id="main-line">
       <Navigation />
-      <div>
+      <div id="blog-page-container">
         <h1>My Blogs</h1>
 
         <div>
@@ -38,6 +38,7 @@ function Blog() {
           ))}
         </div>
       </div>
+
     </div>
   );
 }
