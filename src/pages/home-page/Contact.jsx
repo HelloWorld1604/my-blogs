@@ -36,7 +36,7 @@ function Contact() {
                 <div className="social-medias-container">
                     <a href="https://www.facebook.com/luong.trang.94043/" className="social-medias" id="Facebook"/>
                     <a href="https://www.instagram.com/cheesechesie/" className="social-medias" id="Ig"/>
-                    <a href="https://www.linkedin.com/in/trang-luong-a4b773216/" className="social-medias" id="LinkIn"/>
+                    <a href="https://www.linkedin.com/in/trang-luong-a4b773216/" className="social-medias" id="LinkeIn"/>
                     <a href="https://github.com/HelloWorld1604" className="social-medias" id="GitHub"/>
                 </div>
             </div>

@@ -127,6 +127,22 @@
 .block-icon {
     width: 70px;
     height: 70px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Vietnam {
+    background-image: url(./icons/Vietnam.png);
+}
+
+#Film {
+    background-image: url(./icons/Film.png);
+}
+
+#Turle {
+    background-image: url(./icons/Turle.png);
 }
 
 .block-name {

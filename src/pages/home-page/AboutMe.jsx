@@ -257,7 +257,7 @@ function AboutMe() {
 
                                 <div className="blue-block">
                                     <p className="block-title">Nationality</p>
-                                    <img className="block-icon" src="./icons/Vietnam.png" />
+                                    <div className="block-icon" id="Vietnam"></div>
                                     <p className="block-name">Vietnam</p>
                                     <p className="block-content">
                                         I was born and raised in a peaceful country with a thousand years of history, rich in spirit, beauty and diverse in its culture, cuisine
@@ -270,7 +270,7 @@ function AboutMe() {
 
                                 <div className="blue-block">
                                     <p className="block-title">Hobby</p>
-                                    <img className="block-icon" src="./icons/Film.png" />
+                                    <div className="block-icon" id="Film"></div>
                                     <p className="block-name">Watching anime</p>
                                     <p className="block-content">
                                         Anime is more than a hobby, it’s a bridge to Japanese culture. Each story leaves me with a deep impression and a memory to keep
@@ -279,7 +279,7 @@ function AboutMe() {
 
                                 <div className="black-block">
                                     <p className="block-title">Favorite Pet</p>
-                                    <img className="block-icon" src="./icons/Turle.png" />
+                                    <div className="block-icon" id="Turle"></div>
                                     <p className="block-name">Turle</p>
                                     <p className="block-content">
                                         I love turtles for their charm. They live long and gracefully, I believe that throughout their lives, turtles have found their own meaningful journey.

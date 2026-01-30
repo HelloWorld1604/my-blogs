@@ -75,10 +75,10 @@
 }
 
 
-#LinkIn {
+#LinkeIn {
     background-image: url(/icons/LinkIn.png);
 }
-#LinkIn:hover {
+#LinkeIn:hover {
     background-image: url(/icons/LinkIn-fill.png);
 }
 
