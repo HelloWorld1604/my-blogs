@@ -16,7 +16,7 @@ function Highlight(){
         <div id="highlight">
             <div className="highlight-title-container">
                 <h1 className="highlight-title">My Stories</h1>
-                <p className="highlight-sub">down here are some stories, blogs, the things that i have been learn, then i would love to share with people my wonderful life...</p>
+                <p className="highlight-sub">down here are some stories, blogs, the things that i have been learnt, then i would love to share with people my wonderful life...</p>
             </div>
 
             <div className="highlight-content-container">

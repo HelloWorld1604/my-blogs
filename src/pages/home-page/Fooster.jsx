@@ -19,7 +19,7 @@ function Fooster() {
                     <a href="https://www.linkedin.com/in/trang-luong-a4b773216/" className="fooster-social-medias" id="LinkeIn"/>
                     <a href="https://github.com/HelloWorld1604" className="fooster-social-medias" id="GitHub"/>
             </div>
-            <p id="copyright" >© 2025 BeoBeo. All rights reserved.</p>
+            <p id="copyright" >© 2026 BeoBeo. All rights reserved.</p>
         </div>        
     )
 }

@@ -372,9 +372,13 @@ function AboutMe() {
                                                     </div>
 
                                                     <p className="timeline-year">2025</p>
-                                                    <div className="timeline-information" style={{height:"7vh"}}>
-                                                        <li className="list-infs" >USS Co., Ltd. 2027 Graduation Internship:
-                                                                                <br/>Fundamentals and Development of System Planning</li>
+                                                    <div className="timeline-information" style={{height:"17vh"}}>
+                                                        <ul className="list-infs-container">
+                                                            <li className="list-infs" >USS Co., Ltd. 2027 Graduation Internship:
+                                                                                    <br/>Fundamentals and Development of System Planning</li>
+                                                            <li className="list-infs" >株式会社くすりの窓口 1day Internship:
+                                                                                    <br/>Work experience</li>
+                                                        </ul>
                                                     </div>
                                                 </div>                           
                                             </li>
