@@ -115,6 +115,7 @@
 
 .see-more-button {
     height: 10%;
+
     font-family: "Michroma";
     font-size: 15px;
     color: white;
@@ -123,6 +124,13 @@
 
 .see-more-button:hover {
     text-decoration: underline;
+}
+
+@media only screen and (width > 800px) and (width <= 1000px) {
+    .highlight-card {
+        width: 30vw;
+    }
+    
 }
 
 
@@ -144,25 +152,32 @@
     .highlight-card {
         width: 60vw;
     }
+
+    .see-more-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Smartphone edition -------------------- */
 @media only screen and (width <= 430px) {
 
-    .highlight-sub {
-        width: 70%;
-    }
-
-    .highlight-content-container {
-        flex-direction: column;
-        justify-content: flex-start;
-        overflow-y: scroll;
-
-        gap: 4vh;
-    }
-
     .highlight-card {
-        width: 60vw;
         height: 40vh;
+    }
+
+    .highlight-preview-title {
+        font-size: 10px;
+    }
+
+    .highlight-preview-content {
+        font-size: 7px;
+    }
+
+    .highlight-preview-button {
+        width: 50%;
+        font-size: 8px;
+        color: white;
     }
 }
