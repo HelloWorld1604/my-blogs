@@ -39,6 +39,10 @@
     margin-bottom: 15px;
 }
 
+.fooster-links:hover {
+    text-decoration: underline;
+}
+
 .fooster-social-medias {
     width: 30px;
     height: 30px;
