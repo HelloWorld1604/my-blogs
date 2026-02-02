@@ -1,5 +1,7 @@
 import './Fooster.css';
 
+import { Link } from "react-router-dom";
+
 function Fooster() {
     return (
         <div id="fooster">
@@ -7,7 +9,7 @@ function Fooster() {
 
             <div className="fooster-link-container">
                 <a className="fooster-links" href="#about-me">About me</a>
-                <a className="fooster-links" href="#home">Blogs</a>
+                <Link to="/bbablogs" className="fooster-links">Blogs</Link>
                 <a className="fooster-links" href="#home">Newletter</a>    
             </div>
             
