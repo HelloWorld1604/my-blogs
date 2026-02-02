@@ -118,7 +118,7 @@
 @media only screen and (width > 700px) and (width <= 900px) {
   .article {
     width: 70vw;
-    height: 50vh;
+    height: 30vh;
   }
 
   .preview-title {
@@ -161,15 +161,26 @@
   }
 
   .preview-title {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .preview-content {
-    font-size: 6px;
+    font-size: 5.7px;
   }
 
   .preview-button {
     border-radius: 7px;
     font-size: 6px;
+  }
+}
+
+@media only screen and (width <= 270px) {
+  .preview-content {
+    font-size: 5.4px;
+  }
+
+  .preview-button {
+    border-radius: 7px;
+    font-size: 5.7px;
   }
 }
