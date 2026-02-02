@@ -18,20 +18,20 @@ function Blog() {
     <div id="main-line">
       <Navigation />
       <div id="blog-page-container">
-        <h1>My Blogs</h1>
+        <h1 id="blog-title">My Blogs</h1>
 
         <div>
           {posts.map(post => (      
             <article className="article" key={post.id}>
               <div className="blog-card">
                 <img className="blog-illu"  src={import.meta.env.BASE_URL + post.illustration}/>
+
                 <div className="preview-wrap">
-                  <h2>{post.title}</h2>
-                  <p>{post.content}</p>
-                  <small>{post.created_at}</small>
-                  <br/>
-                  <Link to={`/bbablogs/${post.slug}`}>Read more</Link>
+                  <h4 className="preview-title">{post.title}</h4>
+                  <p className="preview-content">{post.preview}</p>
+                  <Link className="preview-button" to={`/bbablogs/${post.slug}`}>Read more</Link>
                 </div>
+                
               </div>
             </article>
           

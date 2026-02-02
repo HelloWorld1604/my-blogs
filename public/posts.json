@@ -15,7 +15,7 @@
         "illustration":"/blogs/2.jpg",
         "title":"Hello World!",
         "slug":"chao-the-gioi",
-        "preview":"Hello, đây là bài blog đầu tiên 🚀",
+        "preview":"100 chương truyện về mỗi một suy nghĩ linh tinh của nhân vật. Từ những suy tư đơn giản ngây ngô về cây cỏ hoa lá, đến những điều bí ấn cuốn hút như vũ trụ, tiền kiếp, nghiệp quả của con người, rồi ngay cả những chuyện lặt vặt thường ngày cũng thành một câu chuyện để kể...",
         "content":"Hello, đây là bài blog đầu tiên 🚀",
         "status":"published",
         "created_at":"2026-01-29"
@@ -26,8 +26,8 @@
         "illustration":"/blogs/3.jpg",
         "title":"Test case!",
         "slug":"test-case",
-        "preview":"Test case nhằm mục đích kiểm thử chương trình...",
-        "content":"Hello, đây là bài blog đầu tiên 🚀",
+        "preview":"100 chương truyện về mỗi một suy nghĩ linh tinh của nhân vật. Từ những suy tư đơn giản ngây ngô về cây cỏ hoa lá, đến những điều bí ấn cuốn hút như vũ trụ, tiền kiếp, nghiệp quả của con người, rồi ngay cả những chuyện lặt vặt thường ngày cũng thành một câu chuyện để kể...",
+        "content":"Hello, đây là bài blog đầu tiên 🚀 Thử để viết thật nhiều xem đoạn văn có fix với box đã đặt không, có vẻ là fix nên sẽ tam thời bỏ qua",
         "status":"published",
         "created_at":"2026-01-29"
     }
