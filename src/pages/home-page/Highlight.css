@@ -1,0 +1,168 @@
+#highlight {
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url('/background/Highlight.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(64, 64, 64, 0.7);
+    background-blend-mode: multiply;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-title-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-title {
+    font-family: "Michroma";
+    font-weight: 100;
+    color: #45A5FF;
+}
+
+.highlight-sub {
+    width: 35%;
+    margin-top: 5px;
+
+    font-family: "Inter";
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.highlight-content-container {
+    width: 100%;
+    height: 80%;
+    gap: 3vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-card {
+    width: 25vw;
+    height: 65vh;
+    border-radius: 20px;
+    background-color: rgba(255, 255,255, 0.7);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #404040;
+}
+
+.highlight-preview-title {
+    width: 85%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+    font-family: "Michroma";
+    font-size: 15px;
+}
+
+.highlight-illu {
+    width: 85%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.highlight-preview-content {
+    width: 85%;
+    height: 30%;
+    margin-top: 10px;
+
+    font-family: "Inter";
+    font-size: 12px;
+}
+
+.highlight-preview-button {
+  width: 40%;
+  height: 10%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #404040;
+  text-decoration: none;
+  font-family: "Michroma";
+  font-size: 12px;
+  color: white;
+}
+
+.highlight-preview-button:hover {
+  background-color: #727272;
+}
+
+.see-more-button {
+    height: 10%;
+    font-family: "Michroma";
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.see-more-button:hover {
+    text-decoration: underline;
+}
+
+
+/* Mobile edition -------------------- */
+@media only screen and (width <= 800px) {
+
+    .highlight-sub {
+        width: 70%;
+    }
+
+    .highlight-content-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-y: scroll;
+
+        gap: 4vh;
+    }
+
+    .highlight-card {
+        width: 60vw;
+    }
+}
+
+/* Smartphone edition -------------------- */
+@media only screen and (width <= 430px) {
+
+    .highlight-sub {
+        width: 70%;
+    }
+
+    .highlight-content-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-y: scroll;
+
+        gap: 4vh;
+    }
+
+    .highlight-card {
+        width: 60vw;
+        height: 40vh;
+    }
+}
