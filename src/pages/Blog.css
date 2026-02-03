@@ -82,7 +82,7 @@
   align-items: center;
 
   font-family: "Michroma";
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .preview-content {
@@ -91,7 +91,7 @@
   display: flex;
 
   font-family: "Inter";
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .preview-button {
@@ -124,11 +124,11 @@
   }
 
   .preview-title {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .preview-content {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .preview-button {
@@ -144,7 +144,7 @@
   }
 
   .preview-title {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .preview-content {
