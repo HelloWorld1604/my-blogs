@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 function Highlight(){
     const [posts, setPosts] = useState([]);
+    const limit = 3; // highlight only 3 posts
     
       useEffect(() => {
         fetch(import.meta.env.BASE_URL + "posts.json")
@@ -20,7 +21,7 @@ function Highlight(){
             </div>
 
             <div className="highlight-content-container">
-                {posts.map(post => (      
+                {posts.slice(0, limit).map(post => (      
                     <article key={post.id}>
                         <div className="highlight-card">
                             <p className="highlight-preview-title">#{post.id} {post.title}</p>
@@ -34,7 +35,7 @@ function Highlight(){
                         </div>
                     </article>
                 
-                ))}
+                ), 2)}
             </div>
 
             <Link to="/bbablogs" className="see-more-button">See more</Link>
