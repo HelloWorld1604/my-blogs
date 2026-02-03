@@ -1,13 +1,13 @@
 [
     {
         "id":1,
-        "illustration":"/blogs/1.jpg",
-        "title":"Bài viết đầu tiên",
-        "slug":"bai-viet-dau-tien",
-        "preview":"Hello, đây là bài blog đầu tiên 🚀",
-        "content":"Hello, đây là bài blog đầu tiên 🚀",
+        "illustration":"/blogs/1.png",
+        "title":"The first Hello World",
+        "slug":"the-first-hello-world",
+        "preview":"Ở màn hình xanh lè xanh lét của trình nhập code của Pascal, tôi gõ từng li từng tí những kí tự được viết mẫu trong sách, đó là khởi đầu cho câu lệnh Hello World đầu tiên của tôi. Nhờ những dòng code đầu tiên ấy, tôi dần nuôi trong mình niềm đam mê với việc sáng tạo, lập trình tạo ra một sản phẩm gì đó theo sở thích.",
+        "content": "Lần đầu tiên quyết định học lập trình, trong tay tôi không có gì khác ngoài một chiếc laptop Vaio đời cũ và một quyển sách dạy về Pascal cơ bản. Đúng vậy, ngôn ngữ lập trình đầu tiên tôi học là Pascal. Đối với thời đại hiện nay, có lẽ mọi người thường sẽ chọn nhập môn với ngôn ngữ lập trình phổ biến và dễ ứng dụng nhiều hơn như Python, C++... Nhưng lựa chọn ngôn ngữ nào trước không quan trọng, quan trọng là hiểu được cách ngôn ngữ đó hoạt động, cách để tạo ra những thứ mình muốn dựa trên những dòng code.\n\n Ở màn hình xanh lè xanh lét của trình nhập code của Pascal, tôi gõ từng li từng tí những kí tự được viết mẫu trong sách, đó là khởi đầu cho câu lệnh Hello World đầu tiên của tôi. Nhờ những dòng code đầu tiên ấy, tôi dần nuôi trong mình niềm đam mê với việc sáng tạo, lập trình tạo ra một sản phẩm gì đó theo sở thích.\n\n Đối với Pascal, ở cuối mỗi câu lệnh phải có một dấu ; để ngắt. Lúc mới học Pascal đó, tôi vẫn không biết rõ cách hoạt động của Pascal ra sao. Nên mỗi khi viết theo được một đoạn code mẫu, ở chương trình lại báo lỗi ở đâu đó. Mỗi lần như vậy tôi lại phải soi lại từ trong sách từng kí tự một xem mình có thiếu gì không. Tìm thấy thiếu một kí tự dù chỉ là một dấu “;” cũng khiến cả đoạn code dù viết đúng logic vẫn sai. Điều đầu tiên tôi học được là phải viết code theo đúng cú pháp yêu cầu của ngôn ngữ lập trình. Bất kì một kí tự dù nhỏ, dù cảm thấy nó không ảnh hưởng nhiều, nhưng thực ra mỗi cú pháp câu lệnh đều có ý nghĩa của nó. Hiểu và chú ý được điều này, khi viết code sẽ giảm đáng kể những lỗi nhỏ như vậy.\n\n Dẫu vậy, là con người ai cũng sẽ mắc sai lầm, quên một dấu ; là chuyện bình thường khi viết code. Nhưng có thể dò ra được dấu ; bị thiếu ở dòng nào trong một đoạn code ngắn bằng mắt thường. Nhưng giả như có 100, 1000 dòng code, thì tự tìm bằng tay 1 dấu ; bị thiếu không phải điều khả thi cho lắm, có khi viết lại từ đầu sẽ nhanh hơn. Đó là khi, tôi nhận thấy sự tuyệt vời của trình báo lỗi. Khi viết thiếu một dấu ; hay viết sai từ khóa, trong trình báo lỗi của Pascal sẽ ghi: ở dòng số bao nhiêu trong đoạn code, có lỗi gì... Lúc đầu chưa quen có thể cảm thấy hơi khó hiểu khi đọc thông báo lỗi, nhưng dần rồi thấy đọc thông báo lỗi cũng vui, cũng thú vị. Để hiểu hơn về cú pháp và cách hoạt động của Pascal, tôi đã xóa đi, viết lại từng kí tự nhỏ một không biết bao nhiêu lần, đọc không biết bao nhiêu thông báo lỗi, để so sánh sự khác nhau, hiểu hơn về Pascal.\n\n May mắn rằng, tôi đã nắm chắc những kiến thức cơ bản nhất về một ngôn ngữ lập trình. Cùng năm đó, tôi bắt đầu nhập môn với ngôn ngữ C++, để luyện tập nhiều hơn về tư duy logic, thuật toán. Cú pháp của Pascal và C++ có thể sẽ hơi khác nhau, nhưng vẫn chung một mạch logic, vẫn những từ khóa quen thuộc như if, else, for, while. Sau đó vài tháng, tôi lại có cơ hội được nhập môn với Python qua một khóa học trực tuyến. Nhờ có sự luyện tập nhiều với C++, tôi nắm chắc cách cú pháp logic hoạt động, nên khi học Python không gặp khó khăn gì nhiều, mà ngược lại tôi lại trở nên thích Python hơn bao giờ hết vì sự tiện lợi và nhanh gọn.\n\n Sản phẩm đầu tiên của tôi là “Bảng tuần hoàn hóa học” đơn giản với Pascal. Có thể tra được tên nguyên tố hóa học, kí hiệu viết tắt, số electron... vài thứ cơ bản như vậy. Nhưng sản phẩm đầu tiên đấy khiến tôi ấn tượng mãi không ngừng, vì ý tưởng sáng tạo, hay ho của mình. Mặc dù là tiết hóa học, nhưng đến hôm thuyết trình sản phẩm bài tập thầy giao, tụi tôi được mang máy tính để trình chiếu. Lần đầu tiên showcase đó, cả lớp trầm trồ, thích thú với sản phẩm của tôi. Tôi nghĩ đó là cái hay của sáng tạo. Sau này khi nhập môn với Python, tôi cũng có một bài tập cuối khóa học là lập trình một chiếc game nhỏ với thư viện Pygame. Thật sự thì tôi không thích game và lập trình game lắm, nên dù có tạo ra được một sản phẩm nhỏ, đối với tôi nó vẫn không ghê gớm bằng “Bảng tuần hoàn hóa học” được viết bằng Pascal kia.\n\n Tôi cũng đã thử tìm hiểu về lập trình web và tự học HTML, CSS, JS để làm vài web đơn giản chạy trong local-host. Và đúng thật là tôi thật sự yêu thích việc tạo ra một sản phẩm, một thứ gì đó mà mình thích. \n\n",
         "status":"published",
-        "created_at":"2026-01-29"
+        "created_at":"2026-02-03"
     },
 
     {
@@ -16,7 +16,6 @@
         "title":"Hello World!",
         "slug":"chao-the-gioi",
         "preview":"100 chương truyện về mỗi một suy nghĩ linh tinh của nhân vật. Từ những suy tư đơn giản ngây ngô về cây cỏ hoa lá, đến những điều bí ấn cuốn hút như vũ trụ, tiền kiếp, nghiệp quả của con người, rồi ngay cả những chuyện lặt vặt thường ngày cũng thành một câu chuyện để kể...",
-        "content":"Hello, đây là bài blog đầu tiên 🚀",
         "status":"published",
         "created_at":"2026-01-29"
     },
@@ -27,7 +26,6 @@
         "title":"Test case!",
         "slug":"test-case",
         "preview":"100 chương truyện về mỗi một suy nghĩ linh tinh của nhân vật. Từ những suy tư đơn giản ngây ngô về cây cỏ hoa lá, đến những điều bí ấn cuốn hút như vũ trụ, tiền kiếp, nghiệp quả của con người, rồi ngay cả những chuyện lặt vặt thường ngày cũng thành một câu chuyện để kể...",
-        "content":"Hello, đây là bài blog đầu tiên 🚀 Thử để viết thật nhiều xem đoạn văn có fix với box đã đặt không, có vẻ là fix nên sẽ tam thời bỏ qua",
         "status":"published",
         "created_at":"2026-01-29"
     }
