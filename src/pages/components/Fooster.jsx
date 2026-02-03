@@ -1,5 +1,6 @@
 import './Fooster.css';
 
+import { HashLink } from 'react-router-hash-link';
 import { Link } from "react-router-dom";
 
 function Fooster() {
@@ -8,9 +9,9 @@ function Fooster() {
             <a href="#home" id="fooster-logo"/>
 
             <div className="fooster-link-container">
-                <a className="fooster-links" href="#about-me">About me</a>
+                <HashLink smooth to="/#about-me" className="fooster-links">About me</HashLink>
                 <Link to="/bbablogs" className="fooster-links">Blogs</Link>
-                <a className="fooster-links" href="#home">Newletter</a>    
+                <HashLink smooth to="/#contact" className="fooster-links">Contact me</HashLink>
             </div>
             
             <div className="social-medias-container">

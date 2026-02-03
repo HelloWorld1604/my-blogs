@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import Navigation from "./components/Navigation.jsx";
+import Fooster from './components/Fooster.jsx';
 
 function Blog() {
   const [posts, setPosts] = useState([]);
@@ -17,6 +18,7 @@ function Blog() {
   return (
     <div id="main-line">
       <Navigation />
+      
       <div id="blog-page-container">
         <h1 id="blog-title">My Blogs</h1>
 
@@ -39,6 +41,7 @@ function Blog() {
         </div>
       </div>
 
+      <Fooster />
     </div>
   );
 }

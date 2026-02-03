@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
 .post-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #404040
+    color: #404040;
 }
 
 .post-hastag {
@@ -37,10 +44,21 @@
 
 .post-content-wrap {
     width: 60%;
-    height: 50px;
 
     font-family: "Inter";
     font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.post-content-wrap blockquote {
+    border-left: 4px solid #d1d5db;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #374151;
+}
+
+.post-content-wrap p {
+    margin-bottom: 1.2rem;
 }
 
 
