@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Fooster() {
     return (
         <div id="fooster">
-            <a href="#home" id="fooster-logo"/>
+            <HashLink smooth to="/#home" id="fooster-logo"></HashLink>
 
             <div className="fooster-link-container">
                 <HashLink smooth to="/#about-me" className="fooster-links">About me</HashLink>
